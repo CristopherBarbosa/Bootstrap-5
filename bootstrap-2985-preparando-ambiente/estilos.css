@@ -60,3 +60,7 @@ input[type="checkbox"]:focus {
   margin-left: 165px;
   margin-right: 165px;
 }
+
+.modal-text{
+  color: black;
+}
