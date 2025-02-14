@@ -24,7 +24,7 @@
 
 <body>
 
-  <header>  
+  <header>
     <nav class=" navbar-expand-lg navbar bg-body-tertiary fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt="logo cafeteria Serenatto"></a>
@@ -137,7 +137,7 @@
       </div>
 
       <div class="col-12 col-md-6 col-lg-4">
-        <div class="card border-0 btn products "  data-bs-toggle="modal" data-bs-target="#modal-2" style="width: 18rem;">
+        <div class="card border-0 btn products " data-bs-toggle="modal" data-bs-target="#modal-2" style="width: 18rem;">
           <img src="./assets/produtos-cafe-especial.png" class="card-img-top" alt="Xícara de café especial">
           <div class="card-body text-center ">
             <h3 class="card-text fw-bold">Cafés Especiais</h3>
@@ -337,7 +337,11 @@
         </div>
         <div class="modal-body">
           <img src="./assets/produtos-cafe-tradicional.png" alt="xícara de café tradicional" class="w-100">
-          <p>O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da bebida. Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor equilibrado.</p> <p>Entre os cafés mais tradicionais da casa, destaca-se o "Café Serenatto", um blend exclusivo de grãos com notas de chocolate e caramelo. Outra opção popular é o "Café Italiano", um café expresso encorpado e intenso. Já o "Café Cappuccino" é uma escolha clássica para quem prefere uma bebida cremosa e suave</p>
+          <p>O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da bebida.
+            Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor equilibrado.</p>
+          <p>Entre os cafés mais tradicionais da casa, destaca-se o "Café Serenatto", um blend exclusivo de grãos com
+            notas de chocolate e caramelo. Outra opção popular é o "Café Italiano", um café expresso encorpado e
+            intenso. Já o "Café Cappuccino" é uma escolha clássica para quem prefere uma bebida cremosa e suave</p>
         </div>
         <div class="modal-footer mx-auto">
           <button type="button" class="btn btn-secondary border-0" data-bs-dismiss="modal">Fechar janela</button>
@@ -357,7 +361,14 @@
         </div>
         <div class="modal-body">
           <img src="./assets/produtos-cafe-especial.png" alt="xícara de café tradicional" class="w-100">
-          <p>Somos conhecidos também por nossos cafés especiais, que são cuidadosamente preparados com grãos selecionados de alta qualidade e técnicas de preparo precisas.</p> <p>Entre as opções de cafés especiais do Café & Bistrô Serenatto, destacamos o café aeropress, que é preparado com uma técnica de imersão e pressão, resultando em uma bebida de sabor intenso e aroma acentuado. Outra opção popular é o café Hario V60, que é preparado com um filtro de papel em formato de cone e resulta em uma bebida limpa e suave, ressaltando as notas sensoriais dos grãos. Além disso, oferecemos uma variedade de bebidas geladas, como o café gelado, que é preparado com grãos torrados escuros e servido com gelo e leite, resultando em uma bebida refrescante e saborosa.</p>
+          <p>Somos conhecidos também por nossos cafés especiais, que são cuidadosamente preparados com grãos
+            selecionados de alta qualidade e técnicas de preparo precisas.</p>
+          <p>Entre as opções de cafés especiais do Café & Bistrô Serenatto, destacamos o café aeropress, que é preparado
+            com uma técnica de imersão e pressão, resultando em uma bebida de sabor intenso e aroma acentuado. Outra
+            opção popular é o café Hario V60, que é preparado com um filtro de papel em formato de cone e resulta em uma
+            bebida limpa e suave, ressaltando as notas sensoriais dos grãos. Além disso, oferecemos uma variedade de
+            bebidas geladas, como o café gelado, que é preparado com grãos torrados escuros e servido com gelo e leite,
+            resultando em uma bebida refrescante e saborosa.</p>
         </div>
         <div class="modal-footer mx-auto">
           <button type="button" class="btn btn-secondary border-0" data-bs-dismiss="modal">Fechar janela</button>
@@ -370,7 +381,32 @@
     <div class="border border-2 rounded p-3">
       <h3 class="fw-bold p-3">Entre em contato!</h3>
       <form id="contato">
-        
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="Name" aria-describedby="emailHelp">
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Telefone</label>
+          <input type="number" class="form-control" id="Telefone" aria-describedby="emailHelp">
+        </div>
+
+        <select class="form-select mb-3" aria-label="Default select example">
+          <option selected>Preferência de contato</option>
+          <option value="1">Whats App</option>
+          <option value="2">Email</option>
+          <option value="3">Ligação</option>
+        </select>
+
+        <label for="nivel-satisfacao" class="form-label">Nível de satisfação:</label>
+        <input type="range" class="form-range" id="customRange1">
+
       </form>
     </div>
   </section>
