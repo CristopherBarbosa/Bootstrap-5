@@ -61,4 +61,12 @@ input[type="checkbox"]:focus {
   margin-right: 165px;
 }
 
+#customRange1::-webkit-slider-thumb{
+  background-color : var(--marrom-claro) ;
+}
+
+.footer-color{
+  background-color: var(--marrom-claro);
+}
+
 

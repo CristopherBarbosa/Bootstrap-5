@@ -124,7 +124,7 @@
       </div>
     </section>
 
-    <section class="py-5 row">
+    <section class="py-5 row mx-0">
       <h2 class="fw-bold text-center pb-1">Nossos produtos</h2>
 
       <div class="col-12 col-md-6 col-lg-4">
@@ -377,39 +377,59 @@
     </div>
   </div>
 
+
+
   <section class="py-4 container">
-    <div class="border border-2 rounded p-3">
-      <h3 class="fw-bold p-3">Entre em contato!</h3>
-      <form id="contato">
 
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Nome</label>
-          <input type="text" class="form-control" id="Name" aria-describedby="emailHelp">
+    <div class="row">
+      <div class="col-10 col-xl-8 mx-auto">
+
+        <div class="border border-2 rounded p-3">
+          <h3 class="fw-bold p-3">Entre em contato!</h3>
+          <form id="contato">
+
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="Name" aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Telefone</label>
+              <input type="number" class="form-control" id="Telefone" aria-describedby="emailHelp">
+            </div>
+
+            <select class="form-select mb-3" aria-label="Default select example">
+              <option selected>Preferência de contato</option>
+              <option value="1">Whats App</option>
+              <option value="2">Email</option>
+              <option value="3">Ligação</option>
+            </select>
+
+            <label for="nivel-satisfacao" class="form-label">Nível de satisfação:</label>
+            <input type="range" class="form-range" id="customRange1">
+
+          </form>
+
+          <footer class="text-center">
+              <section class="container p-4 pb-0 mb-4 footer-color">
+                <a href=”#!” class="btn"> <i class="bi bi-whatsapp"> </i></a>
+                <a href=”#!” class="btn"> <i class="bi bi-instagram"> </i></a>
+                <a href=”#!” class="btn"> <i class="bi bi-twitter"> </i></a>
+                <div class="p-3">
+                  2023 <i class="bi bi-c-circle"></i> Desenvolvido por Alura | Projeto fictício sem fins comerciais.
+                </div>
+              </section>
+          </footer>
         </div>
-
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email</label>
-          <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-        </div>
-
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Telefone</label>
-          <input type="number" class="form-control" id="Telefone" aria-describedby="emailHelp">
-        </div>
-
-        <select class="form-select mb-3" aria-label="Default select example">
-          <option selected>Preferência de contato</option>
-          <option value="1">Whats App</option>
-          <option value="2">Email</option>
-          <option value="3">Ligação</option>
-        </select>
-
-        <label for="nivel-satisfacao" class="form-label">Nível de satisfação:</label>
-        <input type="range" class="form-range" id="customRange1">
-
-      </form>
+      </div>
     </div>
   </section>
+
 
 
 
