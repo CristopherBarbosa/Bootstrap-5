@@ -80,4 +80,11 @@ input[type="checkbox"]:focus {
   }
 }
 
+@media (max-width: 470px){
+  .products{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 
